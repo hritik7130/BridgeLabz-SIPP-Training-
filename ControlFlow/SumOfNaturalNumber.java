@@ -14,6 +14,7 @@ public class SumOfNaturalNumber {
 
         if(sumbyformula==sumbyloop){
             System.out.println("The result was correct");
+        
         }
         
 
