@@ -19,6 +19,6 @@ public class RocketCountdown {
         
         System.out.println("🚀 Launch!");
 
-        scanner.close();
+        
     }
 }
