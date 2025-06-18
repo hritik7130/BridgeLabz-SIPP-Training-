@@ -23,15 +23,17 @@ public class ReturnCharacter {
 
         }
         return array;
-
-    } public static boolean compareCharArrays(char[] manual, char[] buildIn) {
+      
+    } // Create a method to compare the arrays
+ 
+    public static boolean compareCharArrays(char[] manual, char[] buildIn) {
         if (manual.length != buildIn.length) return false;
 
         for (int i = 0; i < manual.length; i++) {
             if (manual[i] != buildIn[i]) return false;
         }
         return true;
-    }
+    }// Create a method to dispplay the character array
     public static void displayCharArray(char[] arr) {
         for (char c : arr) {
             System.out.print(c + " ");
