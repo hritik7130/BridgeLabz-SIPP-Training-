@@ -21,7 +21,7 @@ public class LowercaseConverter {
         boolean isSame = compareStrings(manualLower, builtInLower);
 
         
-        System.out.println("\nManual Lowercase: " + manualLower);
+        System.out.println("Manual Lowercase: " + manualLower);
         System.out.println("Built-in Lowercase: " + builtInLower);
         System.out.println("Are both lowercase versions equal? " + isSame);
     }
