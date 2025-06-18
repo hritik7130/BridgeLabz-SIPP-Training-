@@ -30,7 +30,7 @@ public class CompareStringsCharAt {
             System.out.println("Methods give different results.");
         }
 
-        scanner.close();
+        
     }
 
     
