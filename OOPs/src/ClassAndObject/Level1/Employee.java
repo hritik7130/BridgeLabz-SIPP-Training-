@@ -1,4 +1,5 @@
-package ClassAndObjects.Level1;
+package ClassAndObject.Level1;
+
 
 class Employee {
     int id;
@@ -27,4 +28,3 @@ class Employee {
         emp2.displayInfo();
     }
 }
-//by hritik
