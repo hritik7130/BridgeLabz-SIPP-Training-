@@ -36,7 +36,7 @@ public class Book {
         System.out.println();
 
         // Using parameterized constructor
-        Book customBook = new Book("The Alchemist", "Paulo Coelho", 299.99);
+        Book customBook = new Book("The Diary Of young girl", "Literature", 299.99);
         System.out.println("Custom Book:");
         customBook.displayBookDetails();
     }
