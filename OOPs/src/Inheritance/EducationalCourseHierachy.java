@@ -53,13 +53,13 @@ class PaidOnlineCourse extends OnlineCourse {
         OnlineCourse online = new OnlineCourse("Data Structures", 8, "Coursera", true);
         PaidOnlineCourse paid = new PaidOnlineCourse("Full Stack Development", 12, "Udemy", true, 9999.0, 20.0);
 
-       // System.out.println("--- Basic Course ---");
+     
         basic.displayDetails();
 
-       // System.out.println("\n--- Online Course ---");
+     
         online.displayDetails();
 
-       // System.out.println("\n--- Paid Online Course ---");
+      
         paid.displayDetails();
     }
 }
