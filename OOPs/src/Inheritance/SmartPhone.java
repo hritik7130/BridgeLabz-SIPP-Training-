@@ -10,7 +10,7 @@ class Device{
 	 }
 	 void display() {
 		 System.out.println("The device id is :"+ device_id);
-		 System.out.println("The device Status is :"+ device_id);
+		 System.out.println("The device Status is :"+ status);
 	 }
 	 
 }
